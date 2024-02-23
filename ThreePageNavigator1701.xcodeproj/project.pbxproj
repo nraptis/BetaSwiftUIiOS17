@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E877E4772B88F9F600DF3350 /* FullScreenCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877E4762B88F9F600DF3350 /* FullScreenCalendar.swift */; };
+		E877E4792B88FA2300DF3350 /* FullScreenNameChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877E4782B88FA2300DF3350 /* FullScreenNameChooser.swift */; };
+		E877E47B2B89067200DF3350 /* UUIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877E47A2B89067200DF3350 /* UUIDView.swift */; };
+		E8AA9F182B87D53300DE1C8D /* ThreePageNavigator1701App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AA9F172B87D53300DE1C8D /* ThreePageNavigator1701App.swift */; };
+		E8AA9F1C2B87D53300DE1C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AA9F1B2B87D53300DE1C8D /* Assets.xcassets */; };
+		E8AA9F1F2B87D53300DE1C8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AA9F1E2B87D53300DE1C8D /* Preview Assets.xcassets */; };
+		E8DE5B832B87DCBD00ED6166 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B822B87DCBD00ED6166 /* Router.swift */; };
+		E8DE5B872B87DE0700ED6166 /* PageA1ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B862B87DE0700ED6166 /* PageA1ViewModel.swift */; };
+		E8DE5B892B87DE1200ED6166 /* PageA1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B882B87DE1200ED6166 /* PageA1View.swift */; };
+		E8DE5B8B2B87DE1C00ED6166 /* PageA1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B8A2B87DE1C00ED6166 /* PageA1Model.swift */; };
+		E8DE5B8D2B87E4DD00ED6166 /* Page2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B8C2B87E4DD00ED6166 /* Page2View.swift */; };
+		E8DE5B8F2B87E4E900ED6166 /* Page2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B8E2B87E4E900ED6166 /* Page2ViewModel.swift */; };
+		E8DE5B912B87E4F400ED6166 /* Page2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B902B87E4F400ED6166 /* Page2Model.swift */; };
+		E8DE5B932B87EF3E00ED6166 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B922B87EF3E00ED6166 /* RootView.swift */; };
+		E8DE5B952B87F6E100ED6166 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B942B87F6E100ED6166 /* RootViewModel.swift */; };
+		E8DE5B972B87FD4400ED6166 /* PageADebugMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B962B87FD4400ED6166 /* PageADebugMenu.swift */; };
+		E8DE5B9B2B88034A00ED6166 /* Page3ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B9A2B88034A00ED6166 /* Page3ViewModel.swift */; };
+		E8DE5B9D2B8803D100ED6166 /* PageA3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DE5B9C2B8803D100ED6166 /* PageA3View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E877E4762B88F9F600DF3350 /* FullScreenCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCalendar.swift; sourceTree = "<group>"; };
+		E877E4782B88FA2300DF3350 /* FullScreenNameChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenNameChooser.swift; sourceTree = "<group>"; };
+		E877E47A2B89067200DF3350 /* UUIDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UUIDView.swift; sourceTree = "<group>"; };
+		E8AA9F142B87D53300DE1C8D /* ThreePageNavigator1701.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreePageNavigator1701.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AA9F172B87D53300DE1C8D /* ThreePageNavigator1701App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePageNavigator1701App.swift; sourceTree = "<group>"; };
+		E8AA9F1B2B87D53300DE1C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8AA9F1E2B87D53300DE1C8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8DE5B822B87DCBD00ED6166 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E8DE5B862B87DE0700ED6166 /* PageA1ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageA1ViewModel.swift; sourceTree = "<group>"; };
+		E8DE5B882B87DE1200ED6166 /* PageA1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageA1View.swift; sourceTree = "<group>"; };
+		E8DE5B8A2B87DE1C00ED6166 /* PageA1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageA1Model.swift; sourceTree = "<group>"; };
+		E8DE5B8C2B87E4DD00ED6166 /* Page2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2View.swift; sourceTree = "<group>"; };
+		E8DE5B8E2B87E4E900ED6166 /* Page2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewModel.swift; sourceTree = "<group>"; };
+		E8DE5B902B87E4F400ED6166 /* Page2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2Model.swift; sourceTree = "<group>"; };
+		E8DE5B922B87EF3E00ED6166 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		E8DE5B942B87F6E100ED6166 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		E8DE5B962B87FD4400ED6166 /* PageADebugMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageADebugMenu.swift; sourceTree = "<group>"; };
+		E8DE5B9A2B88034A00ED6166 /* Page3ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewModel.swift; sourceTree = "<group>"; };
+		E8DE5B9C2B8803D100ED6166 /* PageA3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageA3View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8AA9F112B87D53300DE1C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8AA9F0B2B87D53300DE1C8D = {
+			isa = PBXGroup;
+			children = (
+				E8AA9F162B87D53300DE1C8D /* ThreePageNavigator1701 */,
+				E8AA9F152B87D53300DE1C8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8AA9F152B87D53300DE1C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AA9F142B87D53300DE1C8D /* ThreePageNavigator1701.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AA9F162B87D53300DE1C8D /* ThreePageNavigator1701 */ = {
+			isa = PBXGroup;
+			children = (
+				E8AA9F272B87D56900DE1C8D /* PageA3 */,
+				E8AA9F262B87D56300DE1C8D /* PageA2 */,
+				E8AA9F252B87D55900DE1C8D /* PageA1 */,
+				E8AA9F172B87D53300DE1C8D /* ThreePageNavigator1701App.swift */,
+				E8AA9F1B2B87D53300DE1C8D /* Assets.xcassets */,
+				E8AA9F1D2B87D53300DE1C8D /* Preview Content */,
+				E8DE5B822B87DCBD00ED6166 /* Router.swift */,
+				E8DE5B922B87EF3E00ED6166 /* RootView.swift */,
+				E8DE5B942B87F6E100ED6166 /* RootViewModel.swift */,
+				E8DE5B962B87FD4400ED6166 /* PageADebugMenu.swift */,
+				E877E4762B88F9F600DF3350 /* FullScreenCalendar.swift */,
+				E877E4782B88FA2300DF3350 /* FullScreenNameChooser.swift */,
+				E877E47A2B89067200DF3350 /* UUIDView.swift */,
+			);
+			path = ThreePageNavigator1701;
+			sourceTree = "<group>";
+		};
+		E8AA9F1D2B87D53300DE1C8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E8AA9F1E2B87D53300DE1C8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8AA9F252B87D55900DE1C8D /* PageA1 */ = {
+			isa = PBXGroup;
+			children = (
+				E8DE5B8A2B87DE1C00ED6166 /* PageA1Model.swift */,
+				E8DE5B862B87DE0700ED6166 /* PageA1ViewModel.swift */,
+				E8DE5B882B87DE1200ED6166 /* PageA1View.swift */,
+			);
+			path = PageA1;
+			sourceTree = "<group>";
+		};
+		E8AA9F262B87D56300DE1C8D /* PageA2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8DE5B902B87E4F400ED6166 /* Page2Model.swift */,
+				E8DE5B8E2B87E4E900ED6166 /* Page2ViewModel.swift */,
+				E8DE5B8C2B87E4DD00ED6166 /* Page2View.swift */,
+			);
+			path = PageA2;
+			sourceTree = "<group>";
+		};
+		E8AA9F272B87D56900DE1C8D /* PageA3 */ = {
+			isa = PBXGroup;
+			children = (
+				E8DE5B9A2B88034A00ED6166 /* Page3ViewModel.swift */,
+				E8DE5B9C2B8803D100ED6166 /* PageA3View.swift */,
+			);
+			path = PageA3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8AA9F132B87D53300DE1C8D /* ThreePageNavigator1701 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AA9F222B87D53300DE1C8D /* Build configuration list for PBXNativeTarget "ThreePageNavigator1701" */;
+			buildPhases = (
+				E8AA9F102B87D53300DE1C8D /* Sources */,
+				E8AA9F112B87D53300DE1C8D /* Frameworks */,
+				E8AA9F122B87D53300DE1C8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreePageNavigator1701;
+			productName = ThreePageNavigator1701;
+			productReference = E8AA9F142B87D53300DE1C8D /* ThreePageNavigator1701.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8AA9F0C2B87D53300DE1C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E8AA9F132B87D53300DE1C8D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = E8AA9F0F2B87D53300DE1C8D /* Build configuration list for PBXProject "ThreePageNavigator1701" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8AA9F0B2B87D53300DE1C8D;
+			productRefGroup = E8AA9F152B87D53300DE1C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AA9F132B87D53300DE1C8D /* ThreePageNavigator1701 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8AA9F122B87D53300DE1C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AA9F1F2B87D53300DE1C8D /* Preview Assets.xcassets in Resources */,
+				E8AA9F1C2B87D53300DE1C8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8AA9F102B87D53300DE1C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DE5B912B87E4F400ED6166 /* Page2Model.swift in Sources */,
+				E8DE5B832B87DCBD00ED6166 /* Router.swift in Sources */,
+				E8DE5B8F2B87E4E900ED6166 /* Page2ViewModel.swift in Sources */,
+				E8DE5B932B87EF3E00ED6166 /* RootView.swift in Sources */,
+				E8DE5B892B87DE1200ED6166 /* PageA1View.swift in Sources */,
+				E8AA9F182B87D53300DE1C8D /* ThreePageNavigator1701App.swift in Sources */,
+				E8DE5B8B2B87DE1C00ED6166 /* PageA1Model.swift in Sources */,
+				E877E4792B88FA2300DF3350 /* FullScreenNameChooser.swift in Sources */,
+				E8DE5B952B87F6E100ED6166 /* RootViewModel.swift in Sources */,
+				E8DE5B972B87FD4400ED6166 /* PageADebugMenu.swift in Sources */,
+				E8DE5B872B87DE0700ED6166 /* PageA1ViewModel.swift in Sources */,
+				E877E47B2B89067200DF3350 /* UUIDView.swift in Sources */,
+				E8DE5B9D2B8803D100ED6166 /* PageA3View.swift in Sources */,
+				E8DE5B8D2B87E4DD00ED6166 /* Page2View.swift in Sources */,
+				E877E4772B88F9F600DF3350 /* FullScreenCalendar.swift in Sources */,
+				E8DE5B9B2B88034A00ED6166 /* Page3ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8AA9F202B87D53300DE1C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8AA9F212B87D53300DE1C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8AA9F232B87D53300DE1C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreePageNavigator1701/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GG555KD5G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.ios.17.mvvm.ThreePageNavigator1701;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8AA9F242B87D53300DE1C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreePageNavigator1701/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GG555KD5G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nick.raptis.ios.17.mvvm.ThreePageNavigator1701;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8AA9F0F2B87D53300DE1C8D /* Build configuration list for PBXProject "ThreePageNavigator1701" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AA9F202B87D53300DE1C8D /* Debug */,
+				E8AA9F212B87D53300DE1C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AA9F222B87D53300DE1C8D /* Build configuration list for PBXNativeTarget "ThreePageNavigator1701" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AA9F232B87D53300DE1C8D /* Debug */,
+				E8AA9F242B87D53300DE1C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8AA9F0C2B87D53300DE1C8D /* Project object */;
+}
